@@ -8,6 +8,8 @@
 @font-face {
     font-family: myFont;
     src: url(Images/vanillawhale.otf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 #wrapper{
@@ -37,13 +39,14 @@ h1{
     top: 5rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 10rem;
+    font-size: 8rem;
     color: white;
+    font-weight: 500;
     letter-spacing: 4px;
-    /* text-shadow: 0 0 10px rgba(0, 0, 0, 10); */
-    text-shadow: 8px 8px green;
+    text-shadow: 5px 5px 5px slateblue;
     font-family: myFont;
     /* font-family: "Jacquarda Bastarda 9", serif; */
+
 }
 
 
@@ -61,4 +64,55 @@ h1{
     width: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+section{
+    background-color: rgb(66, 61, 44);
+    color: white;
+    padding: 5rem, 0;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    color: green;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.bg1{
+    background-image: url(Images/cycling.webp);
+}
+
+.bg2{
+    background-image: url(Images/paragliding.jpg);
+}
+
+.bg3{
+    background-image: url(Images/surfing.webp);
+}
+
+.secheading{
+    font-size: 5rem;
+    padding: 0 8rem;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.para{
+    font-size: 1.5rem;
+    padding: 0 8rem;
+    margin: 2rem;
 }
