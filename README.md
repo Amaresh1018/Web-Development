@@ -1,3 +1,4 @@
 # Web-Development
 <--- Projects with HTML CSS & DJANGO -->
-1. Parallax Website -- Website sample video and code.
+01. Parallax Website -- Website sample video and code.
+02. Image Gallery Project(Using Flex) -- Contains demo video and codes.
